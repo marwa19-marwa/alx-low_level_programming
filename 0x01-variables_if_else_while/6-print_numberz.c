@@ -2,15 +2,16 @@
 /**
  *main - Entry point
  *Description: print numbers using putchar
- *Return: always 0
+ *Return: always
 */
 int main(void)
 {
 	int n;
 
-	for (n = 0; n <= 9; n++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(n + 48);
+		putchar(n);
 	}
 	putchar('\n');
+	return (0);
 }
