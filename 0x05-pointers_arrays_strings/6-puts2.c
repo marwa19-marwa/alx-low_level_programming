@@ -13,7 +13,7 @@ void puts2(char *str)
 
 	char *y = str;
 
-	int 0;
+	int m;
 
 	while (*y != '\0')
 	{
