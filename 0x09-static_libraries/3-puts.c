@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * _puts - writes a string
+ * @str: input
+**/
 void _puts(char *str)
 #include<stdio.h>
 /**
